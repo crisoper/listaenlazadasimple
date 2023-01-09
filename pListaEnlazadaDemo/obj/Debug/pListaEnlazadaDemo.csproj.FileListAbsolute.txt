@@ -1,0 +1,14 @@
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\bin\Debug\pListaEnlazadaDemo.exe.config
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\bin\Debug\pListaEnlazadaDemo.exe
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\bin\Debug\pListaEnlazadaDemo.pdb
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\obj\Debug\pListaEnlazadaDemo.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\obj\Debug\pListaEnlazadaDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\obj\Debug\pListaEnlazadaDemo.Form1.resources
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\obj\Debug\pListaEnlazadaDemo.Properties.Resources.resources
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\obj\Debug\pListaEnlazadaDemo.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\obj\Debug\pListaEnlazadaDemo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\obj\Debug\pListaEnlazadaDemo.exe
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\obj\Debug\pListaEnlazadaDemo.pdb
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\bin\Debug\classGeneral.dll
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\bin\Debug\classGeneral.pdb
+C:\Users\Usuario\source\repos\ESTRUCTURDATOS\sListaEnlazadaDemo\pListaEnlazadaDemo\obj\Debug\pListaEnlazadaDemo.csproj.CopyComplete
