@@ -16,6 +16,10 @@ namespace pListaEnlazadaDemo
 
         ListaEnlazadaSimple LESimple = new ListaEnlazadaSimple();
 
+        ListaEnlazadaSimple LESimple2 = new ListaEnlazadaSimple();
+
+        ListaEnlazadaSimple LESResultado = new ListaEnlazadaSimple();
+
         public Form1()
         {
             InitializeComponent();
@@ -111,6 +115,68 @@ namespace pListaEnlazadaDemo
             else
             {
                 MessageBox.Show("El dato ingresado no es un número " + number, "Atención");
+            }
+        }
+
+
+
+
+        /**
+         * Metodos para insertar en lista 2
+         */
+        private void btnAgregar2_Click(object sender, EventArgs e)
+        {
+            int dato = int.Parse(txtDato2.Text);
+            LESimple2.InsertarAlFinal(dato);
+            LlenarDatosListView2();
+            txtDato2.Text = "";
+            MessageBox.Show("Dato insertado", "Atención");
+            txtDato2.Focus();
+        }
+
+
+        private void LlenarDatosListView2()
+        {
+            lvDatos2.Items.Clear();
+            Nodo aux = LESimple2.Primero;
+            while (aux != null)
+            {
+                ListViewItem item = new ListViewItem(aux.ToString());
+                aux = aux.Siguiente;
+                if (aux != null)
+                {
+                    item.SubItems.Add(aux.ToString());
+                }
+                lvDatos2.Items.Add(item);
+            }
+        }
+
+
+
+
+        /*
+         * Operación mezclar listas
+         */
+        private void btnMezclar_Click(object sender, EventArgs e)
+        {
+            LESResultado = LESResultado.mezclarListas(LESimple, LESimple2);
+            LlenarDatosListViewResultado();
+        }
+
+
+        private void LlenarDatosListViewResultado()
+        {
+            lvResultado.Items.Clear();
+            Nodo aux = LESResultado.Primero;
+            while (aux != null)
+            {
+                ListViewItem item = new ListViewItem(aux.ToString());
+                aux = aux.Siguiente;
+                if (aux != null)
+                {
+                    item.SubItems.Add(aux.ToString());
+                }
+                lvResultado.Items.Add(item);
             }
         }
     }

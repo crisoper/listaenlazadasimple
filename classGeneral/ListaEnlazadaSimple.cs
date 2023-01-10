@@ -225,5 +225,33 @@ namespace classGeneral
             return encontrado;
         }
 
+
+        public ListaEnlazadaSimple mezclarListas(ListaEnlazadaSimple les1, 
+            ListaEnlazadaSimple les2)
+        {
+            ListaEnlazadaSimple nueva = new ListaEnlazadaSimple();
+            // Recorriendo datos lista 01
+            Nodo temporal = les1.Primero;
+            while (temporal != null)
+            {
+                if (!nueva.BuscarElemento(temporal.Dato)) {
+                    nueva.InsertarAlFinal(temporal.Dato);
+                }
+                temporal = temporal.Siguiente;
+            }
+
+
+            // Recorriendo datos lista 02
+            temporal = les2.Primero;
+            while (temporal != null)
+            {
+                if (!nueva.BuscarElemento(temporal.Dato)){
+                    nueva.InsertarAlFinal(temporal.Dato);
+                }
+                temporal = temporal.Siguiente;
+            }
+            return nueva;
+        }
+
     }
 }
